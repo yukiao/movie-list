@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:background="#1c1c1c"
     tools:context=".Detail">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="none"
+
         >
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -38,7 +40,9 @@
                 android:text="TextView"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                />
 
             <TextView
                 android:id="@+id/tvGenre"
@@ -52,7 +56,9 @@
                 app:layout_constraintTop_toBottomOf="@id/photo"
                 app:layout_constraintStart_toStartOf="parent"
                 android:textStyle="bold"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:textColor="#fff"
+                />
 
             <TextView
                 android:id="@+id/tvDescription"
@@ -63,7 +69,9 @@
                 android:fontFamily="@font/sfui"
                 android:textSize="16sp"
                 app:layout_constraintTop_toBottomOf="@id/tvGenre"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="#fff"
+                />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

@@ -32,7 +32,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/photo"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#fff"
+        />
 
     <TextView
         android:id="@+id/tvGenre"
@@ -48,7 +50,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/photo"
-        app:layout_constraintTop_toBottomOf="@+id/tvJudul" />
+        app:layout_constraintTop_toBottomOf="@+id/tvJudul"
+        android:textColor="#fff"
+        />
 
     <TextView
         android:id="@+id/tvDescription"
@@ -66,6 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/photo"
+        android:textColor="#fff"
         app:layout_constraintTop_toBottomOf="@+id/tvGenre" />
     <!--    <ScrollView-->
 <!--        android:layout_width="250dp"-->
